@@ -1,0 +1,27 @@
+body{
+    /*NO HEREDABLE*/
+    background-color: aquamarine;
+    border: 2px solid black;
+    /*HEREDABLE*/
+    font-family: 'Courier New', Courier, monospace; 
+    font-size: 17px; 
+    color: cadetblue; 
+}
+
+header{
+    /*HEREDABLE*/
+    text-align: center;
+    color:blueviolet;
+    /*NO HEREDABLE*/
+    border: 2px dotted blue ;
+}
+
+h1{
+    border: inherit;
+    color: initial;
+    text-align: initial;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}

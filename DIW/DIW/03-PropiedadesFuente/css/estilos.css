@@ -1,0 +1,40 @@
+/*UNIDADES DE MEDIDA
+ABSOLUTAS: no dependen de ningún elemento externo, la ventana, contenedor, elemento padre,...
+fijas y constantes no varían de un dispositivo a otro
+px, pt 1/72, in 2,54, cm, mm
+
+RELATIVAS: sí que dependen de un elemento externo, la venta 
+%: depende del tamaño del contenedor padre.
+em: depende del elemento padre
+rem depende del elemento raíz html, 16px
+vh: viewport height
+vw: viewport width depende de la pantalla del navegador
+*/ 
+html{
+    font-size: 20px;
+}
+h1{
+    /*font-size: 30px*/
+    font-size: 1.5rem;
+}
+/*
+p{
+    font-size: 0.9rem;
+}
+*/
+p{
+    font-size: 5vh;
+}
+.absoluto{
+    width: 600px;
+    height: 100px;
+    background-color: aqua;
+}
+body{
+    height: 100vh;
+}
+.relativo{
+    width: 50%;
+    height: 50%;/*solo va a funcionar si definimos la altura del padre (body) */
+    background-color: bisque;
+}

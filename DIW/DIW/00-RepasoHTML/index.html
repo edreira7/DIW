@@ -105,10 +105,85 @@
 
         <area shape="rect" coords=""
 
-
-
-
     </map>
+
+
+    <!--FORMULARIOS-->
+
+    <form action = "pagina.php" method="post" autocomplete="of" target="_blank"> <!--La etiqueta target hace que cuando envie el formulario se me abra otra pagina-->
+
+        <label for="fnom">Nombre: </label>    <!--etiqueta label para dar entrada a un imput-->
+
+        <input type="text" id="fnom" name="fnom" size="50" maxlegnth="10"
+         placeholder="Tu nombre:" required autofocus value="Manuel"> 
+         <!--El "name" identifica la caja del input, el "size" el tamaño de la caja -->
+
+        <label for="fcon">Contraseña: </label>
+        <input type="password" id="fcon" name="fcon" maxlength="8" pattern="[A-Z]{8}">
+
+        <br>
+        <label for="fedad">Edad:</label>
+        <input type="number" id ="fedad" name="fedad" value="18" min="0" max="100"> <!--Min y max es el maximo y minimo valor que permite en el selector de numeros-->
+        
+        
+        <br>
+        <input type="submit" value="Enviar" > <!--El value es lo que pone la cajita para enviar, por defecto pone submit    -->
+
+        <br>
+        <label for="farchivo"></label>
+        <input type="file" id="farchivo" name="farchivo" accept=".png, .jpg">
+
+
+        <br>
+        <label for="fcolor">Color:</label>
+        <input type="color" id="fcolor" name="fcolor" value="ff5733">
+
+        <br>
+        <label for="ffecha"> Fecha:</label>
+        <input type="date"id="ffecha" name="ffecha" min="2023-01-01" max="2024-01-01">
+
+
+        <br>
+        <!--Radio-->
+
+        <label for="fman">Manzana: </label>
+        <input type="radio" id="fman" value="manzana" name="ffruta">
+        <label for="fpera">Pera:</label>
+        <input type="radio" id="fper" value="pera" name="ffruta">
+
+
+        <br>
+        <!--checkbox-->
+        <label for="fc3">C3:</label>
+        <input type="checkbox" id="fc3" name="fc3" value="c3" checked>
+        <label for="fbmw">BMW</label>
+        <input type="checkbox" id="fbmw" name="fbmw" value="bmw">
+
+
+        <br>
+        <label for="fcoment">Comentario: </label>
+        <textarea name="fcoment" id="fcoment" cols="5" row="5" placeholder="..."> </textarea> <!--placeholder es como una instruccion que se le facilita al usuario-->
+
+
+        <br>
+        <label for="fpais">Paises:</label>
+        <select name="pais" id="fpais">
+
+            <option value="francia">Francia</option>
+            <option value="alemania">Alemania</option>
+
+        </select>
+
+
+        <!--fieldset y legend, datalist-->
+
+
+        <br>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpiar">
+        <input type="button" onclick="alert('Hola')">
+
+    </form>
 
 
 

@@ -1,0 +1,42 @@
+/*MODELO DE CAJAS
+
+Componentes de la caja: 
+Ancho: 
+    margin-left+border-left+padding-left+width+padding-right+border-right+margin-right
+Alto:
+    margin-top+border-top+padding-top+height+padding-bottom+border-bottom+margin-bottom
+*/
+*{
+    margin:0px;
+    padding:0px;
+    /*box-sizing:border-box;*/
+}
+.caja1,  .caja2, .caja3{
+    background-color: aqua;
+    width: 200px;
+    height: 100px;
+    border: 3px solid black;
+    padding: 10px;
+    margin: 10px; 
+}
+.caja2{
+    box-sizing: border-box;
+    /*incluye en el ancho total del elemento el padding, content y border
+    tmb lo incluye en el alto*/
+}
+
+/*Centrar verticalmente texto en un contenedor(elemento en bloque) line-height*/
+.caja3{
+    line-height: 100px;
+    text-align: center;
+    /*Centrar horizontalmente un contenedor(elemento en bloque) con margin*/
+    margin: 0px auto;
+
+}
+.caja4{
+    width:50%;
+    height:100px;
+    margin: 0 px auto;
+    border: 1px solid black;
+
+}

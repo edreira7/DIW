@@ -1,0 +1,39 @@
+/*SELECTORES:
+    Selectores básicos
+    Combinadores
+    Selectores de Pseudoclases
+    Selectores de Pseudoelementos
+    Selectores de atributos*/
+
+/*
+    SELECTORES BÁSICOS:
+        Universal: (*) y señala a todo
+        Etiqueta/Elemento: (p, h1, h2, h3, ul, ol, table...)
+        Encadenado/Agrupado: (,)
+        De Descendientes directos: (>)
+        De Descendientes: ( ) no necesita ningún caracter
+        De Clases: (.nombre_clase)
+        De Identificadores: (#nombre_id)
+*/
+*{
+    padding:0;
+    margin: 0;
+}
+h1{
+    color:aqua;
+}
+p{
+    color:blue;
+}
+div > a{
+    color: palevioletred;
+}
+div > p{
+    color: green;
+}
+div p{
+    color:yellow
+}
+.contenedor > a{
+    color: violet;
+}

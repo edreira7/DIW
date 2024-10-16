@@ -1,0 +1,51 @@
+/*color:red*/
+.color{
+    color:azure;
+    color: rgba(243, 244, 245, 0.815);
+    /*opacity*/
+    color: #f0f8ff;
+}
+/*text-align: center, left, right, justify*/
+.alineacion{
+    text-align: center;
+}
+
+/*vertical-align: alineación verrtical, elementos en línea dentro de 
+contenedores (img dentro de p), y tb se usa en las tablas td para alinear
+el texto, (top, bottom, baseline...)
+.alineacion_vertical{
+
+}*/
+
+/*text-decoration: es la prop abreviada 
+    text-decoration-color
+    text-decoration-line
+    text-decoration-thickness
+    text-decoration-style
+*/
+
+.subrayado{
+    /*text-decoration-line:underline;
+    text-decoration-color: aquamarine ;
+    text-decoration-style: double ;
+    text-decoration-thickness:2px ;*/
+    /*tambien se puede englobar todo en un text-decoration*/
+    text-decoration: underline aquamarine double 2px;
+}
+
+/*text-transform*/
+.transformacion{
+    text-transform: uppercase;
+}
+
+/*text-shadow: sombrah sombrav desenfoque color*/
+.sombra{
+    font-size: 30px;
+    text-shadow: 2px 2px 5px gray, 2px 2px 5px red;
+}
+
+/*espaciado:
+    letter-spacing
+    word-spacing
+    text-indent
+    line-heigh*/
