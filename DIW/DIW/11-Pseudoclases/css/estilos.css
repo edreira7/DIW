@@ -1,0 +1,74 @@
+/*Cambiar estilos a los estados del enlace */
+
+a:link{
+
+    color:blue;
+    font-size:15px;
+    font-weight:900;
+
+
+}
+
+
+a:visited{
+
+    color:aqua;
+    font-size:20px;
+    font-weight:900;
+
+}
+
+
+a:hover{
+
+    font-style:italic;
+    color:orange;
+
+
+
+}
+
+
+a:active{
+
+    color:blueviolet;
+    font-style:italic;
+
+}
+
+
+/*Puedo combinar identificadores/clases con pseudoclases */
+
+#caja:hover{
+
+    background-color:blueviolet;
+}
+
+/*PSEUDOCLASES EN LISTAS */
+
+ul li:first-child{
+
+    font-size:20px;
+    font-weight:700;
+}
+
+/*last child */
+
+ul li:last-of-type{
+
+    color:pink;
+    text-decoration:underline overline solid pink;
+}
+
+ul li:nth-child(3){
+
+    font-style:italic;
+}
+
+/*PSEUDOCLASES EN FORMULARIOS */
+
+#fnom:focus{
+
+    background-color:pink;
+    border:2px;
+}

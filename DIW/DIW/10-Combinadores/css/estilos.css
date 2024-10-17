@@ -1,0 +1,40 @@
+/*COMBINADOR DE DESCENDIENTES (ESPACIO) */
+
+div p{
+
+    color:red;
+
+}
+
+/*COMBINADOR DE DESCENDIENTES DIRECTOS (>) */
+
+div > p{
+
+    color:green;
+}
+
+
+/*COMBINADOR DE HERMANO SIGUIENTE (+) */
+
+div + p{
+
+
+   color:purple; 
+
+}
+
+
+/*COMBINADOR DE HERMANOS SIGUIENTES (~) */
+
+div ~ p{
+
+    color:blue;
+}
+
+div > p + p {  /*CAE FIJO EXAMEN  */
+
+    color:orange;
+}
+
+
+    
