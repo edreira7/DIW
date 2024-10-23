@@ -1,0 +1,67 @@
+/*PROPIEDADES DE LAS LISTAS */
+
+ul{
+    /*cambia la viñeta */
+    list-style-type:square; 
+
+    /*posicion de la vieñeta */
+    list-style-position: outside;
+
+    /*pone una imagen como viñeta */
+    list-style-image: url('user.png');
+
+    /*list-style-image: url('user.png'); */
+    /*propiedad abreviada */
+    list-style: square inside;
+
+
+
+}
+
+ol{
+
+    list-style:lower-roman inside;
+
+    /*para eliminar la viñeta */
+    list-style-type:none;
+
+}
+/*pares */
+
+ul li:nth-child(even):hover{
+
+    color:red;
+}
+
+
+/*impares */
+
+ul li:nth-child(odd):hover{
+
+    color:blue;
+}
+
+/*PROPIEDADES DE LAS TABLAS: border-collapse, border, margin, text-allign, vertical-allign */
+
+table{
+
+    width: 400 px;
+    margin: 0 auto;
+    border:1px solid black;
+    border-collapse: collapse;
+
+}
+
+td,th{
+
+    border:3px solid black;
+
+}
+
+th{
+    height: 70px;
+    background-color:sienna;
+    color:cornsilk;
+}
+
+tr:nth-child()

@@ -1,0 +1,36 @@
+i{
+    color:green;
+    font-size:xx-large;
+}
+
+body{
+    /*propiedades fuente de google */
+    font-family: "Kablamo", system-ui;
+    font-optical-sizing:auto;
+    font-weight: 400px;
+    font-style:normal;
+    font-variation-settings:
+        "MORF" 0;
+
+    background-image: url('/DIW/05-Iconos/captura.png');
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+    background-position: center center;
+    height:1000px;
+
+
+
+}
+
+
+
+    /*PROPIEDADES DEL FONDO */
+    /*background-color
+      background-image
+      background-repeat
+      background-size
+      background-position
+      backgorund-attachment
+    */
+
+
