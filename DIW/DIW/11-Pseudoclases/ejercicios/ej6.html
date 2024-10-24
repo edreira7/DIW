@@ -1,0 +1,67 @@
+:focus-within
+
+Función: Aplica estilos cuando un elemento, o cualquiera de sus hijos, está enfocado (recibe el foco del teclado o del ratón). Esto es útil para formularios o contenedores con múltiples elementos interactivos.
+Ejemplo: Un formulario que cambia el color del borde del contenedor cuando cualquiera de sus elementos está enfocado.
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudoclase :focus-within</title>
+    <style>
+        .form-container {
+            border: 2px solid gray;
+            padding: 20px;
+            width: 300px;
+        }
+
+        /* Cambiar el color del borde cuando un elemento dentro del contenedor está enfocado */
+        .form-container:focus-within {
+            border-color: blue;
+        }
+
+        input {
+            display: block;
+            margin-bottom: 10px;
+            padding: 8px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" name="name">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+    </div>
+</body>
+</html>
+:empty
+
+Función: Selecciona elementos que no tienen ningún contenido (es decir, que están vacíos). Esto es útil para agregar estilos especiales a elementos que aún no han sido llenados o que no contienen hijos.
+Ejemplo: Un div que cambia de color si está vacío.
+
+html
+Copiar código
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudoclase :empty</title>
+    <style>
+        /* Cambiar el fondo si el elemento está vacío */
+        div:empty {
+            background-color: lightgray;
+            border: 1px dashed gray;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div></div> <!-- Este div está vacío -->
+    <div>Contenido aquí</div> <!-- Este div no está vacío -->
+</body>
+</html>
