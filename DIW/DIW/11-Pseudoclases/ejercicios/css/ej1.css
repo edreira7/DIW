@@ -1,0 +1,57 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(5, 100px);
+    grid-template-rows: repeat(4, 100px);
+    gap: 1px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.rojo {
+    background-color: #FF0000;
+    color: #FFFFFF;
+}
+
+.azul {
+    background-color: #0000FF;
+    color: #FFFFFF;
+}
+
+.verde {
+    background-color: #00FF00;
+    color: #FFFFFF;
+}
+
+.naranja {
+    background-color: #FFA500;
+    color: #FFFFFF;
+}
+
+.lila {
+    background-color: #EE82EE;
+    color: #FFFFFF;
+}
+
+.rosa {
+    background-color: #FFC0CB;
+    color: #000000;
+}
+
+.gris {
+    background-color: #808080;
+    color: #FFA500;
+}

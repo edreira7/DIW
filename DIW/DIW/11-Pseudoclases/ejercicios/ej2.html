@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2</title>
+</head>
+<body>
+
+    <ol>
+        <li>div p {background-color: pink;}</li>   
+        <ul>
+            <li>Selecciona aquellos "p" que se encuentran dentro de un "div" de manera genérica:</li>
+            <li>Se ven afectadas los parrafos 1,2,4,6,7,10</li>
+        </ul> 
+
+        <li>div > p {background-color: pink;}</li>
+        <ul>
+            <li>Selecciona los hijos directos de div:</li>
+            <li>Se ven afectados 1,2,4,6,7,10</li>
+        </ul>
+
+        <li>div + p {background-color: pink;}</li>
+        <ul>
+            <li>Selecciona el primer hijo directo de el div:</li>
+            <li>Se ven afectados 5 y 11</li>
+        </ul>
+
+        <li>div ~ p {background-color: pink;}</li>
+        <ul>
+            <li>Selecciona todos los p que son hermanos del div y estan directamente despues de el:</li>
+            <li>Parrafos afectados 5 y 11</li>
+
+        </ul>
+
+    </ol>
+
+</body>
+</html>

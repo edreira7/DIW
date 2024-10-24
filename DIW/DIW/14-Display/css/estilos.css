@@ -27,6 +27,7 @@ a{
 .caja1, .caja2, .caja3{
 
     height: 100px;
+    width: 100px;
     border:1px solid black;
-    display:inline;
+    display:inline-block; /* en el inline no puedo darle tamaño */
 }

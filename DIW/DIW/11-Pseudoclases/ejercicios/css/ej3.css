@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    margin: 0;
+    text-align: center;
+}
+.contenedor{
+display: inline-block;
+
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+
+ul li:first-child {
+    font-size: 15pt;
+    color: blueviolet;
+    font-weight: bolder;
+    
+}
+
+
+ul li:last-child {
+    font-size: 25pt;
+    color: cadetblue;
+    text-decoration: underline;
+    text-decoration-color: cadetblue;
+}
+
+
+ul:only-child li:only-child {
+    font-size: 30pt;
+    text-shadow: 2px 2px 2px salmon;
+}
+
+
