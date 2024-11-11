@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h1>POSITION</h1>
+<h2>Permite posicionar elementos html en cualquier lugar de la pantalla </h2>
+<p>Valores:
+    <ul>
+        <li>Static:valor por defecto.Siguen el flujo normal de la pagina segun su colocacion</li>
+        <li>relative:se puede mover, se mueve desde su posicion en el flujo normal."top","bottom","left","rigth".Unico en el que se mantiene el hueco   </li>
+        <li>absolute:se puede mover,hay que comprobar si tiene padre y si este padre esta posicionado
+            (que un elemento este posicionado es que tiene un valor de posicion, menos static)si hay padre y este esta posicionado se mueve dentro del padre
+            sino, se mueve en relacion a la pantalla (no tiene padre o no esta posicionado):top,bottom,left, rigth
+            el elemento movido no deja hueco
+        </li>
+        <li>fixed:se puede mover con bottom,top,left,rigth y se mueve en relacion a la pantalla y se queda fijo</li>
+        <li>sticky:se comporta como relative y como fixed.Se fija con top, bottom, left y rigth</li>
+    </ul>
+
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum quis fugiat dolorem harum nihil quas, cupiditate accusantium non aspernatur numquam similique qui beatae ipsa rerum cumque quae, aliquid eos atque!</p>
+        <div class="estatico"></div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad distinctio voluptatibus facere accusamus optio ratione eligendi dolore rem assumenda velit, illo corporis deleniti fugiat ut quo quos alias facilis sequi.</p>
+        <div class="relativo"></div>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum vero maiores facilis, est debitis nihil cupiditate, quod nulla cumque iusto ipsa repudiandae sunt nobis. Temporibus asperiores pariatur officia. Dignissimos, natus</p>
+        <div class="absoluto"></div>
+            <div class="hijo"></div>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt, animi velit. Amet soluta dolor, vel eaque eum nisi animi fugiat nostrum dicta maxime ratione sit aut magni cum, enim explicabo.</p>
+        <div class="fijo"></div>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit nesciunt qui numquam fuga dignissimos repellat nostrum illo inventore vitae blanditiis corporis beatae dolorem libero voluptates, sunt error fugiat omnis rerum?</p>
+        <div class="pegajoso"></div>
+        
+    
+</p>    
+<link rel="stylesheet" href="css/estilos.css">
+</body>
+</html>

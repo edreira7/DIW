@@ -1,0 +1,55 @@
+div{
+    width: 100px;
+    height: 100px;
+    border:solid black;
+}
+
+.estatico{
+    position: static; /*valor por defecto*/
+    background-color: aqua;
+}
+.relativo{
+    position: relative;
+    background-color: bisque;
+    left:200px;
+    bottom:-200px; /*para subir es bottom para bajar top*/
+
+}
+
+.absoluto{
+    position:absolute;
+    top:0;
+    left:0;
+    background-color: aquamarine;
+
+}
+
+.hijo{
+
+    width: 50px;
+    height: 50px;
+    background-color: aliceblue;
+    position: absolute ;
+    top: 50%;
+    left: 50%;
+}
+
+.fijo{
+    position:fixed;
+    top:0;
+    left:0;
+    background-color: brown;
+}
+
+.pegajoso{
+    width: 100%;
+    background-color: aliceblue;
+    position: sticky;
+    top:0;
+}
+
+/*z-index: permite ordenar los elementos para controlar quien se ve arriba o abajo 
+solo se puede usar en elementos posicionados (todos los position distinto a static)
+es un numero que indica el orden y puede ser positivo o negativo, si es negativo estará mas  hacia abajo que algo positivo.
+Si un elemento no tiene z-index   
+    

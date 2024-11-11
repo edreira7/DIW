@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;/*todo elemento su ancho y alto real + contenido + border + padding */
+}
+
+ul{
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+.horizontal{
+    background-color: gainsboro;
+    text-align: center;
+}
+.horizontal li{
+display: inline-block;
+}
+.horizontal li a{
+    text-decoration: none;
+    display: inline-block;/*para que el a se visualice como en linea , uno detrás de otro y se pueda dar tamaño*/
+    padding: 16px 20px;
+}
+.horizontal li a:hover:not(.activo){
+    background-color: orange;
+    font-weight: 900;
+    border-bottom: 1px solid black;
+ }
+ .horizontal li a.activo{
+    background-color: lightskyblue;
+    color: orange;
+}
+
+.horizontal li a{
+font-family: sans-serif;
+color: black;
+font-weight: 600;
+text-shadow: 1px 1px 2px rgb(255, 255, 255);
+}
