@@ -1,0 +1,7 @@
+.div {
+    float: left;
+    width: 25%;
+    padding: 50px 0;
+    text-align: center;
+    box-sizing: border-box;
+}

@@ -1,0 +1,26 @@
+.menu {
+    background-color: bisque;
+    overflow: auto;
+    display: inline-block;
+}
+
+.menu a {
+    float: left;
+    padding: 14px 20px;
+    text-decoration: none;
+    color: brown;
+    text-align: center;
+    background-color: bisque;
+}
+
+.menu a.active {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    background-color: orange;
+    color: white; 
+    font-weight: bold;
+}

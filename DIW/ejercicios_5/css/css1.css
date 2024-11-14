@@ -1,0 +1,42 @@
+.contenedor{
+    width: 800px;
+    height: 600px;
+    background-color: blue;
+    position: relative;
+}
+
+.arriba{
+    position: absolute;
+    top: 0;
+    left: 50px;
+    width: 700px;
+    height: 50px;
+    background-color: orange;
+}
+
+.izquierda{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 600px;
+    background-color: red;
+}
+
+.derecha{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 50px;
+    height: 600px;
+    background-color: green;
+}
+
+.abajo{
+    position: absolute;
+    bottom: 0;
+    left: 50px;
+    width: 700px;
+    height: 50px;
+    background-color: purple; 
+}

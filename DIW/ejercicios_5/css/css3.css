@@ -1,0 +1,9 @@
+.div {
+    float: left;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    border: 1px dotted black;
+    text-decoration-color: black;
+}

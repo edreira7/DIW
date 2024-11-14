@@ -79,3 +79,23 @@ color: black;
 font-weight: 600;
 text-shadow: 1px 1px 2px rgb(255, 255, 255);
 }
+
+.pie {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #d3d3d3;
+    padding: 10px;
+    border: 1px solid #000;
+    margin-top: 592px;
+}
+.pie a {
+    margin: 0 10px;
+    color: black;
+    text-decoration-line: none;
+}
+
+.pie a:hover{
+    font-weight: bold;
+    text-decoration-line: underline;
+ }

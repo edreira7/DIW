@@ -1,0 +1,49 @@
+.contenedor {
+    position: relative;
+    display: inline-block;
+  }
+  
+  img {
+    width: 300px; 
+    height: auto;
+  }
+  
+  .textos {
+    position: absolute;
+    font-weight: bold;
+  }
+  
+  #texto1 {
+    top: 10px;
+    left: 10px;
+    color:white;
+    font-size: 25px
+  }
+  
+  #texto2 {
+    top: 0px;
+    right: 0px;
+    color:red;
+    font-size: 9px
+  }
+  
+  #texto3 {
+    bottom: 10px;
+    right: 10px;
+    color: blue;
+    font-size: 35px;
+  }
+  
+  #texto4 {
+    bottom: 10px;
+    left: 10px;
+    color: green;
+    text-decoration-line: underline;
+  }
+  
+  #texto5 {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: bisque;
+  }

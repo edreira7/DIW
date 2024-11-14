@@ -1,0 +1,6 @@
+.ejercicio::first-letter {
+    float: left;
+    font-size: 60px; 
+    font-weight: bold;
+    margin-right: 10px; 
+}
